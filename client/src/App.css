@@ -1,0 +1,38 @@
+.inputs {
+  display: flex;
+  justify-content: space-around;
+}
+
+textarea {
+  height: 60vh;
+  width: 40vw;
+  border-radius: 5px;
+  padding: 0.5%;
+}
+
+.btn {
+  text-align: center;
+  margin: 3% auto;
+}
+.btn button {
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffff;
+  font-size: 100%;
+  background: #101012;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn button:hover {
+  background: #222629;
+  border-radius: 25px;
+  background-image: linear-gradient(to bottom, #222629, #111314);
+  text-decoration: none;
+  cursor: pointer;
+}
+.text{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

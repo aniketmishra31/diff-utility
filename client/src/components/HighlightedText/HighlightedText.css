@@ -1,0 +1,14 @@
+.highlighted-text-matched {
+    color: green;
+    font-weight: 'bold',
+}
+
+.highlighted-text-not-matched {
+    color: red;
+    font-weight: 'bold',
+}
+
+.text-display {
+    width: 40vw;
+    
+}

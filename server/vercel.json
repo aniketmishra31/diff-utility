@@ -1,0 +1,11 @@
+{
+    "version": 2,
+    "name": "diff-utility",
+    "builds": [
+      { "src": "src/**/*.ts", "use": "@vercel/node" }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "src/app.ts" }
+    ]
+  }
+  
