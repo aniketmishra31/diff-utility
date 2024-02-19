@@ -11,7 +11,7 @@ function App() {
   const [lcs, setLcs] = useState<string | null>(null);
   const handleClick = () => {
     const data = (input && compare) ? { input, compare } : { error: "Invalid" };
-    fetch("https://diff-utility-git-server-aniket-mishras-projects-85e5cb37.vercel.app/?vercelToolbarCode=FcSGOUtjrBdjmXl/", {
+    fetch("https://diff-utility.vercel.app/", {
       method: "POST",
       headers: {
         'Content-Type': 'application/json',
